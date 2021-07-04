@@ -1,8 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Averia+Serif+Libre|Noto+Serif|Tangerine" rel="stylesheet">
-	<!-- Styling for public area -->
-	<link rel="stylesheet" href="static/css/public_styling.css">
-	<meta charset="UTF-8">
+		<link rel="shortcut icon" type="image/jpg" href="static/images/AdamFavicon.ico">
+		<meta name="description" content="Adam Metcalf's personal website" />
+		<meta name="keywords" content="Adam Metcalf" />
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" type="text/css" href="static/css/public_css.css" />
+		

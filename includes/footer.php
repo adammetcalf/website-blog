@@ -1,7 +1,7 @@
-		<div class="footer">
-			<p>MyViewers &copy; <?php echo date('Y'); ?></p>
-		</div>
-	</div>
-	<!-- // container -->
-</body>
-</html>
+<!--<div id="content_footer"></div>-->
+<p>
+	<a href="index.php">Home</a> | <a href="blog.php">Blog</a> |  <a href="contact.php">Contact Me</a>
+</p>
+<p>
+	Copyright &copy; 2021 Adam Metcalf
+</p>
