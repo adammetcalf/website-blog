@@ -5,3 +5,8 @@
 <p>
 	Copyright &copy; 2021 Adam Metcalf
 </p>
+
+<div class="adminLink">
+	<a href="admin.php">Admin</a>
+
+</div>

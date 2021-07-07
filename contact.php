@@ -4,12 +4,8 @@
 	<head>
 		<title>Contact</title>
 		
-		<meta name="description" content="Adam Metcalf's personal website" />
-		<meta name="keywords" content="Adam Metcalf" />
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<link rel="stylesheet" type="text/css" href="static/css/public_css.css" />
 <!---Head section--->
-<?php require_once('includes/head_section.php') ?>
+<?php include('includes/head_section.php') ?>
 <!---// Header section--->
 
 	</head>
@@ -19,7 +15,7 @@
 		<div id="main">
 		
 			<!---Header--->
-			<?php require_once('includes/header.php') ?>
+			<?php include('includes/header.php') ?>
 			
 			
 			<!--START-MENUBAR-->

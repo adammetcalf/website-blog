@@ -60,7 +60,17 @@
 			
 				<?php foreach ($posts as $post): ?>
 					<div class="blogpost" style="margin-left: 0px;">
-						<img src="<?php echo BASE_URL . '/static/images/' . $post['image']; ?>" class="blogpost_image" alt="">
+						<?php if($post['topic']['name'] == 'Coding'): ?>
+							<img src="static/images/Adam.jpg" class="blogpost_image" alt="">
+						<?php elseif($post['topic']['name'] == 'Engineering') : ?>
+							<img src="static/images/banner.jpg" class="blogpost_image" alt="">
+						<?php else : ?>
+							<img src="static/images/Adam2.jpg" class="blogpost_image" alt="">
+						<?php endif ?>
+	
+						<!--img src="<?php //echo BASE_URL . '/static/images/' . $post['image']; ?>" class="blogpost_image" alt=""-->
+
+						
 						<!-- Added this if statement... -->
 						<?php if (isset($post['topic']['name'])): ?>
 							<a 
