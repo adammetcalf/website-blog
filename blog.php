@@ -63,7 +63,7 @@
 						<?php if($post['topic']['name'] == 'Coding'): ?>
 							<img src="static/images/Adam.jpg" class="blogpost_image" alt="">
 						<?php elseif($post['topic']['name'] == 'Engineering') : ?>
-							<img src="static/images/banner.jpg" class="blogpost_image" alt="">
+							<img src="static/images/pngwing.png" class="blogpost_image" alt="">
 						<?php else : ?>
 							<img src="static/images/Adam2.jpg" class="blogpost_image" alt="">
 						<?php endif ?>
